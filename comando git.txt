@@ -1,0 +1,26 @@
+git init
+
+git status
+
+git add "meu codigo.txt" 	-> para adicionar apenas um arquivo específico
+
+git add . 			-> para adicionar vários arquivos simultaneos.
+
+git commit -m "commit inicial"	-> -m significa mensagem, caso seja a primeira vez, o git pedirá a configuração email e username.
+
+
+
+depois de criado o repositório
+
+git remote add origin https://github.com/rossinrodrigo/AprendendoGitGithub	-> definição do local para onde o código será enviado no github.
+
+git push			-> para enviar o código, mas ele não aceitará diretamente, ele passará o código completo, assim passando com o branch 
+
+git push --set-upstream origin master	-> copie e cole o comando completo
+
+
+
+
+
+
+
